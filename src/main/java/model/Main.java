@@ -1,3 +1,5 @@
+package model;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class Main {
 
         Serie tomYJerry = new Serie("Tom & Jerry", "Animacion");
 
-        Temporada tyjTemporada1 = new Temporada("Temporada 1", 1, 10, tomYJerry);
+        Temporada tyjTemporada1 = new Temporada("model.Temporada 1", 1, 10, tomYJerry);
 
         Capitulo tyjCapitulo1 = new Capitulo(1,"La Persecucion", 30, tomYJerry);
 

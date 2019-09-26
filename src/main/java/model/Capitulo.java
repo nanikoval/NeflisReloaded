@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,7 +83,7 @@ public class Capitulo implements Contenido{
     }
 
     /*
-        public List<Actor> getActoresInvitados() {
+        public List<model.Actor> getActoresInvitados() {
             return actoresInvitados;
         }
     */

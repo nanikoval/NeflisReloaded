@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +66,7 @@ public class Temporada implements Contenido {
 
     }
 
-    //PUNTO 3 (responsabilidad en Serie)
+    //PUNTO 3 (responsabilidad en model.Serie)
 
     protected Capitulo ultimoCapituloDisponibleDeLaTemp(){
 
