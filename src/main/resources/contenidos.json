@@ -1,0 +1,62 @@
+[
+  {
+    "id" : 1,
+    "title" : "losAristogatos",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  } ,
+  {
+    "id" : "Florencia",
+    "title" : "enero",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  } ,
+  {
+    "id" : "Florencia",
+    "title" : "enero",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  },
+  {
+    "id" : "Florencia",
+    "title" : "enero",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  },
+  {
+    "id" : "Florencia",
+    "title" : "enero",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  },
+  {
+    "id" : "Florencia",
+    "title" : "enero",
+    "year" : 20,
+    "duration" : "",
+    "genre" : "",
+    "director" : "",
+    "actors" : "",
+    "plot" : ""
+  }
+]
