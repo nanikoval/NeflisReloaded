@@ -19,8 +19,8 @@ public class Serie implements Contenido {
 
 
     public Serie(String nombre, String genero){
-        this.nombre = nombre;
-        this.genero = genero;
+        this.setNombre(nombre);
+        this.setGenero(genero);
     }
 
 
@@ -93,5 +93,23 @@ public class Serie implements Contenido {
     }
 
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void setActores(List<Actor> actores) {
+        this.actores = actores;
+    }
+
+    public void setTemporadasEnSerie(List<Temporada> temporadasEnSerie) {
+        this.temporadasEnSerie = temporadasEnSerie;
+    }
 }
