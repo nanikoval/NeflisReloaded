@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Titanic",
+    "genero": "Drama"
+  },
+  {
+    "nombre": "Game of Thrones",
+    "genero": "Accion"
+  },
+  {
+    "nombre": "OA",
+    "genero": "Drama"
+  },
+  {
+    "nombre": "Mindhunter",
+    "genero": "Policial"
+  }
+]

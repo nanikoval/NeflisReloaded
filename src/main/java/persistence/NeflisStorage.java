@@ -2,6 +2,7 @@ package persistence;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import model.Contenido;
 import model.Serie;
 import org.springframework.stereotype.Component;
 
@@ -17,10 +18,10 @@ public class NeflisStorage {
         this.objectMapper = objectMapper;
     }
 
-    public List<Serie> series() {
+    public List<Contenido> contenidos() {
         try {
             return objectMapper.readValue
-                    (new File("/Users/Marina/Desktop/demo/src/main/resources/series.json"),
+                    (new File("/Users/Marina/Desktop/demo/src/main/resources/contents.json"),
                             new TypeReference<List<Serie>>() {
                             }
                     );
@@ -32,7 +33,7 @@ public class NeflisStorage {
 
     public void wirteSerie (Serie serie) {
         try {
-            objectMapper.writeValue(new File("/Users/Marina/Desktop/demo/src/main/resources/series.json"),
+            objectMapper.writeValue(new File("/Users/Marina/Desktop/demo/src/main/resources/contents.json"),
                     serie);
         } catch (IOException e) {
             e.printStackTrace();
