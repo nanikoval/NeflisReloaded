@@ -30,13 +30,4 @@ public class NeflisStorage {
         }
     }
 
-    public void wirteSerie (Contenido contenido) {
-        try {
-            objectMapper.writeValue(new File("/Users/Marina/Desktop/demo/src/main/resources/contents.json"),
-                    contenido);
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }
-    }
 }
