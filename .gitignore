@@ -25,3 +25,8 @@ hs_err_pid*
 .idea/
 NeflisReloaded.iml
 target/
+
+.mvn/.mvn.iml
+neflis-reloaded.iml
+src/main/main.iml
+src/test/test.iml
