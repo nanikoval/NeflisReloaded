@@ -1,8 +1,11 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@JsonTypeName("Pelicula")
 public class Pelicula implements Contenido {
 
     private String nombre;

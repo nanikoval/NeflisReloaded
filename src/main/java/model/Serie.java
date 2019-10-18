@@ -1,8 +1,11 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@JsonTypeName("Serie")
 public class Serie implements Contenido {
 
     //private Integer cantidadDeTemporadas;   //a priori no lo pide
