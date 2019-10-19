@@ -16,11 +16,13 @@ public class Pelicula implements Contenido {
 
     private List<Actor> actores = new ArrayList<>();
 
+    public Pelicula(){}
+
 
     public Pelicula(String nombre, Integer duracion, String genero) {
-        this.nombre = nombre;
-        this.duracion = duracion;
-        this.genero = genero;
+        this.setNombre(nombre);
+        this.setDuracion(duracion);
+        this.setGenero(genero);
     }
 
 
@@ -58,13 +60,13 @@ public class Pelicula implements Contenido {
     //A        -     Saber si un actor actuó en un contenido.
 
     public void agregarActor(Actor actor){
-        this.actores.add(actor);
+        this.getActores().add(actor);
     }
 
 
     public Boolean actua(Actor actor){
 
-        return this.actores.contains(actor);
+        return this.getActores().contains(actor);
     }
 
 
@@ -75,5 +77,23 @@ public class Pelicula implements Contenido {
     }
 
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setDuracion(Integer duracion) {
+        this.duracion = duracion;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void setActores(List<Actor> actores) {
+        this.actores = actores;
+    }
 }

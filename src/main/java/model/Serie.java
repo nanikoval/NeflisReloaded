@@ -19,7 +19,7 @@ public class Serie implements Contenido {
     private List<Temporada> temporadasEnSerie = new ArrayList<>();
 
 
-
+    public Serie (){}
 
     public Serie(String nombre, String genero){
         this.setNombre(nombre);

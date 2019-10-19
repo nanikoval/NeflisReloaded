@@ -9,12 +9,14 @@ import java.util.stream.Collectors;
 
 @Service
 public class NeflisService {
-    private List<Contenido> contenidos;
+    private List<Contenido>contenidos;
 
     private NeflisStorage neflisStorage;
+
     public NeflisService(NeflisStorage neflisStorage){
         this.neflisStorage=neflisStorage;
     }
+
     public List<Contenido> contenidos(String genero){
         contenidos= neflisStorage.contenidos();
 

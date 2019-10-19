@@ -20,7 +20,7 @@ public class NeflisStorage {
     public List<Contenido> contenidos() {
         try {
             return objectMapper.readValue
-                    (new File("/Users/Marina/Desktop/demo/src/main/resources/contents.json"),
+                    (new File("/Users/Marina/Desktop/NeflisReloaded/src/main/resources/contents.json"),
                             new TypeReference<List<Contenido>>() {
                             }
                     );
