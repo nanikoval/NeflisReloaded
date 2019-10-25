@@ -1,4 +1,4 @@
-package model;
+package neflis.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +66,7 @@ public class Temporada implements Contenido {
 
     }
 
-    //PUNTO 3 (responsabilidad en model.Serie)
+    //PUNTO 3 (responsabilidad en Serie)
 
     protected Capitulo ultimoCapituloDisponibleDeLaTemp(){
 

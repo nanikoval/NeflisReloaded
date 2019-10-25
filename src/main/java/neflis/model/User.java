@@ -1,4 +1,4 @@
-package model;
+package neflis.model;
 
 import java.util.ArrayList;
 import java.util.List;

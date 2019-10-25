@@ -1,17 +1,21 @@
 [
   {
+    "type": "Pelicula",
     "nombre": "Titanic",
     "genero": "Drama"
   },
   {
+    "type": "Serie",
     "nombre": "Game of Thrones",
     "genero": "Accion"
   },
   {
+    "type": "Serie",
     "nombre": "OA",
     "genero": "Drama"
   },
   {
+    "type": "Serie",
     "nombre": "Mindhunter",
     "genero": "Policial"
   }
