@@ -1,4 +1,4 @@
-package model;
+package neflis.model;
 
 public class Actor {
 

@@ -1,4 +1,4 @@
-package model;
+package neflis.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -83,7 +83,7 @@ public class Capitulo implements Contenido{
     }
 
     /*
-        public List<model.Actor> getActoresInvitados() {
+        public List<neflis.model.Actor> getActoresInvitados() {
             return actoresInvitados;
         }
     */
