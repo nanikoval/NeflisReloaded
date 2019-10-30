@@ -4,6 +4,7 @@ import neflis.persistence.NeflisStorage;
 import neflis.model.Contenido;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +16,9 @@ public class NeflisService {
     @Autowired
     private NeflisStorage neflisStorage;
 
+
     public List<Contenido> contenidos(String genero){
+
         contenidos= neflisStorage.contenidos();
 
         if(genero==null){
