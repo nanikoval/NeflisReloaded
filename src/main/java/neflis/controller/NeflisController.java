@@ -1,5 +1,6 @@
 package neflis.controller;
 
+import neflis.model.Content;
 import neflis.service.NeflisService;
 import neflis.model.Contenido;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +17,8 @@ public class NeflisController {
     private NeflisService neflisService;
 
     @GetMapping("/contents")
-    public List<Contenido> contenidos(@RequestParam(value="genero", required = false)String genero){
-        return neflisService.contenidos(genero);
+    public List<Content> contenidos(@RequestParam(value="genero", required = false)String genero){
+        return neflisService.content(genero);
     }
 
 

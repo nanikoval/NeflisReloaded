@@ -1,5 +1,6 @@
 package neflis.service;
 
+import neflis.model.Content;
 import neflis.persistence.NeflisStorage;
 import neflis.model.Contenido;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,20 +12,20 @@ import java.util.stream.Collectors;
 
 @Service
 public class NeflisService {
-    private List<Contenido> contenidos;
+    private List<Content> content;
 
     @Autowired
     private NeflisStorage neflisStorage;
 
 
-    public List<Contenido> contenidos(String genero){
+    public List<Content> content(String genero){
 
-        contenidos= neflisStorage.contenidos();
+        content= neflisStorage.contents();
 
         if(genero==null){
-            return contenidos;
+            return content;
         }else{
-            return contenidos.stream().filter(b->b.getGenero().equals(genero)).collect(Collectors.toList());
+            return content.stream().filter(b->b.getGenero().equals(genero)).collect(Collectors.toList());
         }
 
 
