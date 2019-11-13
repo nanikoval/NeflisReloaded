@@ -4,8 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-
+        User user = new User();
 
         Serie tomYJerry = new Serie("Tom & Jerry", "Animacion");
 
@@ -22,6 +21,9 @@ public class Main {
         tyjTemporada1.agregarCapituloATemporada(tyjCapitulo1);
         tyjTemporada1.agregarCapituloATemporada(tyjCapitulo2);
         tyjTemporada1.agregarCapituloATemporada(tyjCapitulo3);
+
+
+        user.setContenidosVistos(tyjCapitulo1);
 
         Actor tom = new Actor("Tom");
         Actor jerry = new Actor("Jerry");
@@ -40,18 +42,12 @@ public class Main {
 
         User gaia = new User();
 
-        gaia.play(tyjCapitulo1);
-        gaia.play(tyjCapitulo2);
-        gaia.play(losAristogatos);
 
         System.out.println("gaia vio completo aristo? " + gaia.vioCompleto(losAristogatos));
         System.out.println("gaia vio completo TyJ? " + gaia.vioCompleto(tomYJerry));
 
         System.out.println("actua jerry? " + tomYJerry.actua(jerry));
 
-        System.out.println("min vistos de documental " + gaia.minutosVistosDe("Documental"));
-
-        System.out.println("Gaia es fan de tom? " + gaia.esFanDe(tom));
 
 
 
