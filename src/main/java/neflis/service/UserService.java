@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class UserService {
-    private User user;
+    private User user=new User();
     private NeflisStorage neflisStorage;
     private List<Content> contentList;
 
